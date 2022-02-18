@@ -6,4 +6,8 @@
     <string name="incorrect_toast">Incorrect!</string>
     <string name="question_text_1">Barcelona is the capital of Spain.</string>
     <string name="question_text_2">LMDShow and Illojuan are the same person.</string>
+    <string name="question_text_3">France\'s capital is Paris.</string>
+    <string name="answer_1">false</string>
+    <string name="answer_2">false</string>
+    <string name="answer_3">true</string>
 </resources>
