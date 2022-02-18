@@ -2,4 +2,8 @@
     <string name="app_name">GeoQuiz</string>
     <string name="false_button">False</string>
     <string name="true_button">True</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="question_text_1">Barcelona is the capital of Spain.</string>
+    <string name="question_text_2">LMDShow and Illojuan are the same person.</string>
 </resources>
