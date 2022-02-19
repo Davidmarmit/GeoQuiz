@@ -8,13 +8,11 @@
     android:orientation="vertical"
     tools:context=".QuizActivity">
 
-
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question_text_1"
+        android:text="@string/question_text_2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -40,5 +38,5 @@
             android:text="@string/false_button" />
     </LinearLayout>
 
-</LinearLayout>
 
+</LinearLayout>

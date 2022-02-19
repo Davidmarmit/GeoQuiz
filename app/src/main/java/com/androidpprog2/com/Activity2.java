@@ -9,8 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class QuizActivity extends AppCompatActivity {
-
+public class Activity2 extends AppCompatActivity {
     private Button mTrueButton;
     private Button mFalseButton;
     private TextView question;
@@ -18,13 +17,13 @@ public class QuizActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_2);
         question = (TextView) findViewById(R.id.textView);
         mTrueButton = (Button) findViewById(R.id.true_button);
         mTrueButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(QuizActivity.this,R.string.incorrect_toast,Toast.LENGTH_SHORT).show();
+                Toast.makeText(Activity2.this,R.string.incorrect_toast,Toast.LENGTH_SHORT).show();
             }
 
         });
@@ -32,33 +31,13 @@ public class QuizActivity extends AppCompatActivity {
         mFalseButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(QuizActivity.this, R.string.correct_toast, Toast.LENGTH_SHORT).show();
-                openActivity2();
+                Toast.makeText(Activity2.this, R.string.correct_toast, Toast.LENGTH_SHORT).show();
+                openActivity3();
             }
         });
     }
-    public void openActivity2(){
-        Intent intent = new Intent(this, Activity2.class);
-        startActivity(intent);
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
+    public void openActivity3(){
+        Intent intent2 = new Intent(this, Activity3.class);
+        startActivity(intent2);
     }
 }
