@@ -17,7 +17,7 @@
             android:name=".Activity2"
             android:exported="false" />
         <activity
-            android:name=".QuizActivity"
+            android:name=".controller.QuizActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
